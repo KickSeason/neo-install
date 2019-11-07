@@ -1,3 +1,4 @@
+#!/bin/bash
 NETWORK=$1
 
 if [ x$NETWORK == x ]; then
