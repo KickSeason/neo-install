@@ -7,7 +7,7 @@ if [ x$NETWORK == x ]; then
 fi
 
 sudo apt update
-sudo apt-get install libleveldb-dev sqlite3 libsqlite3-dev unzip zip
+sudo apt-get -y install libleveldb-dev sqlite3 libsqlite3-dev unzip zip
 
 #install dotnet
 wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
@@ -16,9 +16,9 @@ sudo dpkg -i packages-microsoft-prod.deb
 sudo apt update
 sudo add-apt-repository universe
 sudo apt-get update
-sudo apt-get install apt-transport-https
+sudo apt-get -y install apt-transport-https
 sudo apt-get update
-sudo apt-get install aspnetcore-runtime-3.0
+sudo apt-get -y install aspnetcore-runtime-3.0
 
 #install neo-cli
 wget https://github.com/neo-project/neo-cli/releases/download/v2.10.3/neo-cli-linux-x64.zip
