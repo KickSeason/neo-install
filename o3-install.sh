@@ -37,7 +37,7 @@ unzip SimplePolicy.zip
 rm *.zip
 cd Plugins/
 wget https://tmpngd.oss-cn-shanghai.aliyuncs.com/RpcNep5Tracker.zip
-unzip RpcSystemAssetTracker.zip
+unzip RpcNep5Tracker.zip
 wget https://tmpngd.oss-cn-shanghai.aliyuncs.com/ExplorerRPC.zip
 unzip ExplorerRPC.zip
 rm *.zip
